@@ -1,0 +1,16 @@
+{
+    "name": "aatis/tester",
+    "type": "library",
+    "description": "Test library of Aatis",
+    "authors": [
+        {
+            "name": "Maxime Batista",
+            "email": "maximebatista.lycee@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aatis\\Tester\\": "src/"
+        }
+    }
+}
