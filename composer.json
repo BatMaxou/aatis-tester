@@ -12,5 +12,8 @@
         "psr-4": {
             "Aatis\\Tester\\": "src/"
         }
+    },
+    "require": {
+        "aatis/template-renderer": "^1.0"
     }
 }
