@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Test;
+namespace Aatis\Tester\Service\TemplateRenderer;
 
 use Aatis\TemplateRenderer\Service\PhpRenderer;
+use Aatis\Tester\Enum\ExtraTemplateFileExtensionEnum;
 
 class ExtraRenderer extends PhpRenderer
 {
-    public const EXTENSION = ExtraTemplateFileExtension::EXTRA;
+    public const EXTENSION = ExtraTemplateFileExtensionEnum::EXTRA;
 }

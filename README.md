@@ -10,15 +10,35 @@ composer require aatis/tester
 
 ## Content
 
+### Enums
+
+`Template Renderer`
+
+- ExtraTemplateFileExtensionEnum
+    - **EXTRA** = '.extra.php'
+    - **ZEBI** = '.zebi'
+
 ### Interfaces
+
+`Common`
 
 - WriterInterface
     - **write**(string message)
 
 ### Services
 
+`Common`
+
 - Writer
     - **construct**(string defaultMessage)
     - **write**(?string message = null):
         - if message is null, write defaultMessage
         - else write message
+
+`Template Renderer`
+
+- ExtraRenderer extends PhpRenderer
+    - **EXTENSION** = ExtraTemplateFileExtensionEnum::EXTRA
+
+- ZebiRenderer extends PhpRenderer
+    - **EXTENSION** = ExtraTemplateFileExtensionEnum::ZEBI
