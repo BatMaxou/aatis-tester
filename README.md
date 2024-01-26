@@ -18,6 +18,12 @@ composer require aatis/tester
     - **EXTRA** = '.extra.php'
     - **ZEBI** = '.zebi'
 
+`Error Handler`
+
+- ExtraExceptionCodeEnum
+    - **_30** = 'Extra Error'
+    - **-50** = 'Zebi Error'
+
 ### Interfaces
 
 `Common`
