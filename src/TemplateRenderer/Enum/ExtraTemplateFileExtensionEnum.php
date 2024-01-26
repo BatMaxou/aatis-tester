@@ -1,6 +1,6 @@
 <?php
 
-namespace Aatis\Tester\Enum\TemplateRenderer;
+namespace Aatis\Tester\TemplateRenderer\Enum;
 
 enum ExtraTemplateFileExtensionEnum: string
 {

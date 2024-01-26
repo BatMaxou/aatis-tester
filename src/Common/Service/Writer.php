@@ -1,8 +1,8 @@
 <?php
 
-namespace Aatis\Tester\Service;
+namespace Aatis\Tester\Common\Service;
 
-use Aatis\Tester\Interface\WriterInterface;
+use Aatis\Tester\Common\Interface\WriterInterface;
 
 class Writer implements WriterInterface
 {

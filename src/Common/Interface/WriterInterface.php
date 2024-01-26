@@ -1,6 +1,6 @@
 <?php
 
-namespace Aatis\Tester\Interface;
+namespace Aatis\Tester\Common\Interface;
 
 interface WriterInterface
 {

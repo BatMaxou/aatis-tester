@@ -1,9 +1,9 @@
 <?php
 
-namespace Aatis\Tester\Service\TemplateRenderer;
+namespace Aatis\Tester\TemplateRenderer\Service;
 
 use Aatis\TemplateRenderer\Service\PhpRenderer;
-use Aatis\Tester\Enum\TemplateRenderer\ExtraTemplateFileExtensionEnum;
+use Aatis\Tester\TemplateRenderer\Enum\ExtraTemplateFileExtensionEnum;
 
 class ExtraRenderer extends PhpRenderer
 {
