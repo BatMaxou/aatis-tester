@@ -22,7 +22,7 @@ composer require aatis/tester
 
 - ExtraExceptionCodeEnum
     - **_30** = 'Extra Error'
-    - **-50** = 'Zebi Error'
+    - **_50** = 'Zebi Error'
 
 ### Interfaces
 
