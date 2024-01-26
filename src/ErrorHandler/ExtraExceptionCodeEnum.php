@@ -1,6 +1,6 @@
 <?php
 
-namespace Aatis\Tester\Enum\ErrorHandler;
+namespace Aatis\Tester\ErrorHandler;
 
 enum ExtraExceptionCodeEnum: string
 {
