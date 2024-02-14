@@ -18,6 +18,7 @@
         "phpstan/phpstan": "^1.10"
     },
     "require": {
-        "aatis/template-renderer": "^1.0"
+        "aatis/template-renderer": "^1.1",
+        "aatis/event-dispatcher": "^1.0"
     }
 }
