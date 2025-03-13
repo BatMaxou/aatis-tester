@@ -7,7 +7,7 @@ use Aatis\EventDispatcher\Event\Event;
 class CustomEvent extends Event
 {
     public function __construct(
-        private string $message
+        private string $message,
     ) {
     }
 

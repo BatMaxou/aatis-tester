@@ -7,7 +7,7 @@ use Aatis\EventDispatcher\Event\StoppableEvent;
 class CustomStoppableEvent extends StoppableEvent
 {
     public function __construct(
-        private string $message
+        private string $message,
     ) {
     }
 
