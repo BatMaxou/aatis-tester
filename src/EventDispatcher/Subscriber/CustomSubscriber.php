@@ -28,7 +28,7 @@ class CustomSubscriber implements EventSubscriberInterface
         $this->writer->write('-- Never '.$event->getMessage().' -- ');
     }
 
-    public function getSubscribedEvents(): iterable
+    public static function getSubscribedEvents(): array
     {
         return [
             CustomEvent::class => ['custom', 2],
