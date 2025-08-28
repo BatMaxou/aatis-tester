@@ -6,5 +6,5 @@ use Aatis\TemplateRenderer\Service\PhpRenderer;
 
 class ZebiRenderer extends PhpRenderer
 {
-    public const EXTENSION = '.zebi';
+    protected const EXTENSION = '.zebi';
 }
